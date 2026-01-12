@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Foto Profil Tengah</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      /* tengah horizontal */
+      align-items: center;
+      /* tengah vertikal */
+      font-family: Arial, sans-serif;
+      background: #f1e1e1;
+    }
+
+    .profile-box {
+      width: 300px;
+      background: #c7c3c3;
+      padding: 25px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .profile-box img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #333;
+    }
+
+    .profile-box h2 {
+      margin: 15px 0 5px;
+    }
+
+    .profile-box p {
+      color: #2b0404;
+      font-size: 14px;
+    }
+
+    .btn-profile {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 22px;
+      background: #007bff;
+      color: rgb(7, 2, 2);
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .btn-profile:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="profile-box">
+      <img src="WhatsApp Image 2026-01-12 at 09.41.42.jpeg">
+    
+    <h2>ikhsan khusnul sanusi</h2>
+    <a href="https://instagram.com/ikhsan_khusnul">
+     @khusnul_sanusi
+
+
+      <a href="https://example.com" class="btn-profile">
+        Kunjungi Profil
+      </a>
+  </div>
+
+</body>
+
+</html>
